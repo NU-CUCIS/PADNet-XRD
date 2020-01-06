@@ -43,7 +43,7 @@ All the model training code with the execution logs used in the paper [1] is pro
 
 Please cite the following work if you are using PADNet model and/or code for background preprocessing of 2D XRD patterns provided in this repository.
 
-1. Dipendra Jha, Aaron G. Kusne, Reda Al-Bahrani, Nam Nguyen, Wei-keng Liao, Alok Choudhary, and Ankit Agrawal, "Peak area detection network for directly learning phase regions from raw x-ray diffraction patterns." In 2019 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE. [DOI:10.1109/IJCNN.2019.8852096] [<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8852096">PDF</a>].
+1. Dipendra Jha, Aaron Gilad Kusne, Reda Al-Bahrani, Nam Nguyen, Wei-keng Liao, Alok Choudhary, and Ankit Agrawal, "Peak area detection network for directly learning phase regions from raw x-ray diffraction patterns." In 2019 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE. [DOI:10.1109/IJCNN.2019.8852096] [<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8852096">PDF</a>].
 
 
 ## Questions/Comments
