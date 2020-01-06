@@ -4,7 +4,7 @@ Peak area detection network (PADNet) directly learns to predict the phase region
 
 ## Installation Requirements
 
-Python 2.7
+Python 2.7 with Jupyter Notebook
 
 matplotlib 3.0.2
 
@@ -18,7 +18,7 @@ TensorFlow 1.12
 
 scikit-learn 0.20.2
 
-## Contents
+## Source Files
 
 This repository contains the code for preprocessing warped 2D X-ray diffraction patterns using minimum filter and convolutional smoothening, along with the code for training PADNet model on the XRD patterns.
 
@@ -34,12 +34,16 @@ This repository contains the code for preprocessing warped 2D X-ray diffraction 
 
 * `training-data` - folder containing instructions on how to obtain the dataset used in the paper.
 
+## To Run
 
-## Citation
+All the model training code with the execution logs used in the paper [1] is provided in the Jupyter notebook: `perf_analysis.ipynb`. This notebook contains the complete output logs from all the models trained using different types of input data and evaluation using different types of test data. The PADNet model can be similarly trained and evaluated on other datasets.
+
+
+## Publications
 
 Please cite the following work if you are using PADNet model and/or code for background preprocessing of 2D XRD patterns provided in this repository.
 
-D. Jha, A. G. Kusne, R. Al-Bahrani, N. Nguyen, W.-keng Liao, A. Choudhary, and A. Agrawal, "Peak area detection network for directly learning phase regions from raw x-ray diffraction patterns." In 2019 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE. [DOI:10.1109/IJCNN.2019.8852096] [<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8852096">PDF</a>].
+1. Dipendra Jha, Aaron G. Kusne, Reda Al-Bahrani, Nam Nguyen, Wei-keng Liao, Alok Choudhary, and Ankit Agrawal, "Peak area detection network for directly learning phase regions from raw x-ray diffraction patterns." In 2019 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE. [DOI:10.1109/IJCNN.2019.8852096] [<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8852096">PDF</a>].
 
 
 ## Questions/Comments
