@@ -36,7 +36,9 @@ This repository contains the code for preprocessing warped 2D X-ray diffraction 
 
 ## To Run
 
-All the model training code with the execution logs used in the paper [1] is provided in the Jupyter notebook: `perf_analysis.ipynb`. This notebook contains the complete output logs from all the models trained using different types of input data and evaluation using different types of test data. The PADNet model can be similarly trained and evaluated on other datasets.
+All the model training code with the execution logs used in the paper [1] is provided in the Jupyter notebook: `perf_analysis.ipynb`. The notebook can be executed in any browser by itself, hence there is no command to run it.
+
+This notebook contains the complete output logs from all the models trained using different types of input data and evaluation using different types of test data. The PADNet model can be similarly trained and evaluated on other datasets.
 
 
 ## Publications
