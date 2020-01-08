@@ -42,7 +42,7 @@ Launch a jupyter notebook by using the following command in a terminal:
 
 A notebook interface will appear in a new browser window or tab. Next open the `perf_analysis.ipynb` jupyter notebook file. It contains the code to run the PADNet model and also shows the expected output for each cell.
 
-This notebook contains the complete output logs from all the models trained using different types of input data and evaluation using different types of test data performed in the paper [1]. The PADNet model can be similarly trained and evaluated on other datasets.
+This notebook contains the complete output logs from all the models trained using different types of input data and evaluation using different types of test data performed in the paper [1]. The input for PADNet is composed of 2048x2048 warped XRD patterns. For SLAC model, the input has one XRD pattern with composition. For Bruker model, the input is composed of two XRD patterns along with the composition. The PADNet is architecture is defined for 8 phase region label classes, it can be modified to work with other XRD datasets with different number of classes by simple modification in the code. The PADNet model can be similarly trained and evaluated on other datasets.
 
 ## Publications
 
